@@ -1,6 +1,13 @@
 # Fade-Finder
+
+## Table of Contents
+- [Overview](#overview)
+- [Product Spec](#product-spec)
+- [Wireframes](#wireframes)
+
 ## Overview
-### DescriptionThe Barbershop App is a social networking app designed for individuals seeking a new haircut style or barber. Barbers can upload images of their work, and clients can swipe left or right based on their interest. Clients can also view barbers in three local areas of their choosing, making it easier to find someone nearby. The app aims to create a seamless experience for those looking for a fresh cut while giving barbers a platform to showcase their skills.
+### Description
+The Barbershop App is a social networking app designed for individuals seeking a new haircut style or barber. Barbers can upload images of their work, and clients can swipe left or right based on their interest. Clients can also view barbers in three local areas of their choosing, making it easier to find someone nearby. The app aims to create a seamless experience for those looking for a fresh cut while giving barbers a platform to showcase their skills.
 
 ### App Evaluation
 - **Category**: Social Networking / Lifestyle

@@ -76,4 +76,4 @@ The Barbershop App is a social networking app designed for individuals seeking a
 - Profile -> Edit profile fields
 - Settings -> Toggle app preferences
 
-<img src="https://i.imgur.com/lYHn37F.jpg" height=200>
+<img src="[https://i.imgur.com/lYHn37F.jpg](https://ibb.co/Lk2RGDg)" height=200>

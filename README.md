@@ -78,7 +78,5 @@ The Barbershop App is a social networking app designed for individuals seeking a
 
 ## Wireframes
 
-![Welcome Screen](https://your-repo-link/welcome-screen.png)
-![Swipe Screen](https://your-repo-link/swipe-screen.png)
-![Liked Barbers Screen](https://your-repo-link/liked-barbers-screen.png)
+
 

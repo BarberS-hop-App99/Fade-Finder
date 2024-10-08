@@ -78,5 +78,5 @@ The Barbershop App is a social networking app designed for individuals seeking a
 
 ## Wireframes
 
-![Wire Frame]((https://github.com/BarberS-hop-App99/Fade-Finder/blob/main/Fadez%202.png?raw=true))
+![Wire Frame](https://github.com/BarberS-hop-App99/Fade-Finder/blob/main/Fadez%202.png?raw=true)
 

@@ -76,4 +76,9 @@ The Barbershop App is a social networking app designed for individuals seeking a
 - Profile -> Edit profile fields
 - Settings -> Toggle app preferences
 
-<img src="https://ibb.co/Lk2RGDg" >
+## Wireframes
+
+![Welcome Screen](https://your-repo-link/welcome-screen.png)
+![Swipe Screen](https://your-repo-link/swipe-screen.png)
+![Liked Barbers Screen](https://your-repo-link/liked-barbers-screen.png)
+

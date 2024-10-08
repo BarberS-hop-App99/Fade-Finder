@@ -70,6 +70,8 @@ The Barbershop App is a social networking app designed for individuals seeking a
 - Booking (Appointment Schedule)
 
 **Flow Navigation (Screen to Screen)**
+
+<img src="https://i.imgur.com/9CrjH1K.jpg" width=800><br>
 - Forced Login -> Account Creation if no login is available
 - Swipe Screen -> Chat upon matching with a barber
 - Profile -> Edit profile fields

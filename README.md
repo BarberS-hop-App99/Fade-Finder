@@ -83,10 +83,7 @@ The Fade Finder Barbershop App is a social networking app designed for individua
 
    HTTP Verb | Endpoint | Description
    ----------|----------|------------
-    `GET`    | /cities | gets all cities
-    `GET`    | /cities/byId/:id | gets specific city by :id
-    `GET`    | /continents | gets all continents
-    `GET`    | /continents/byId/:id | gets specific continent by :id
-    `GET`    | /regions | gets all regions
-    `GET`    | /regions/byId/:id | gets specific region by :id
-    `GET`    | /characters/paths/:name | gets a character's path with a given name
+    `GET`    | /characters | get all characters
+    `GET`    | /characters/?name=name | return specific character by name
+    `GET`    | /houses   | get all houses
+    `GET`    | /houses/?name=name | return specific house by name

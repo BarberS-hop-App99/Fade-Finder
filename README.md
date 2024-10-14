@@ -81,9 +81,9 @@ The Fade Finder Barbershop App is a social networking app designed for individua
 ![Wire Frame](https://github.com/Jvy-byte/Fade-Finder/blob/main/IMG_6753.jpg?raw=true)
 ![Wire Frame](https://github.com/BarberS-hop-App99/Fade-Finder/blob/main/Untitled%20design%20(1).png?raw=true)
 
-   HTTP Verb | Endpoint | Description
-   ----------|----------|------------
-    `GET`    | /characters | get all characters
-    `GET`    | /characters/?name=name | return specific character by name
-    `GET`    | /houses   | get all houses
-    `GET`    | /houses/?name=name | return specific house by name
+ HTTP Verb	Endpoint	Description
+GET	/barbers	Retrieve a list of all barbers on the platform
+GET	/barbers/:id	Retrieve a specific barber profile by :id
+POST	/barbers	Create a new barber profile
+PUT	/barbers/:id	Update barber profile information by :id
+DELETE	/barbers/:id	Delete a barber profile by :id

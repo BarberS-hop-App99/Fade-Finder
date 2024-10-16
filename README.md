@@ -4,6 +4,7 @@
 - [Overview](#overview)
 - [Product Spec](#product-spec)
 - [Wireframes](#wireframes)
+- [Schema](#schema)
 
 ## Overview
 ### Description
@@ -87,3 +88,23 @@ GET	/barbers/:id	Retrieve a specific barber profile by :id
 POST	/barbers	Create a new barber profile
 PUT	/barbers/:id	Update barber profile information by :id
 DELETE	/barbers/:id	Delete a barber profile by :id
+
+## Schema 
+### Models
+#### Post
+
+   | Property      | Type     | Description |
+   | ------------- | -------- | ------------|
+   | objectId      | String   | unique id for the user post (default field) |
+   | author        | Pointer to User| image author |
+   | image         | File     | image that user posts |
+   | caption       | String   | image caption by author |
+   | commentsCount | Number   | number of comments that has been posted to an image |
+   | likesCount    | Number   | number of likes for the post |
+   | createdAt     | DateTime | date when post is created (default field) |
+   | updatedAt     | DateTime | date when post is last updated (default field) |
+   
+  
+### Networking
+#### List of network requests by screen
+   

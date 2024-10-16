@@ -81,7 +81,8 @@ The Fade Finder Barbershop App is a social networking app designed for individua
 ![Wire Frame](https://github.com/Jvy-byte/Fade-Finder/blob/main/IMG_6753.jpg?raw=true)
 ![Wire Frame](https://github.com/BarberS-hop-App99/Fade-Finder/blob/main/Untitled%20design%20(1).png?raw=true)
 
-
+# Fade Finder Data Models
+![FadeFinder_1](https://github.com/user-attachments/assets/361fdae4-0c8a-47fa-a271-3068318a431a)
 
 
 ##### Barber API 

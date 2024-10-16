@@ -83,9 +83,9 @@ The Fade Finder Barbershop App is a social networking app designed for individua
 
 
 
-#### [IF EXISTS:] Existing API Endpoints
+
 ##### Barber API 
-- Base URL - [http://www.anapioficeandfire.com/api](http://www.anapioficeandfire.com/api)
+Base URL  [http://www.anapioficeandfire.com/api](http://www.anapioficeandfire.com/api](https://api.fadefinder.com/v1)
 
    HTTP Verb | Endpoint | Description
    ----------|----------|------------

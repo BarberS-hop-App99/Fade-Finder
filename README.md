@@ -106,3 +106,10 @@ The Fade Finder Barbershop App is a social networking app designed for individua
     `PUT`    | /users/:id |Update user profile information by :id
     `DELETE`    | /users/:id |Delete a user profile by :id
 
+     HTTP Verb | Endpoint | Description
+   ----------|----------|------------
+    `GET`    | /swipes/:userId | Retrieve swipe history for a specific user by userId
+    `POST`    | /swipes |Create a new swipe action (like or dislike)
+    `GET`    | /matches/:userId |Retrieve matched barbers for a specific user by userId
+   
+

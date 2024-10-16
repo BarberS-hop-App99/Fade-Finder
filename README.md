@@ -111,5 +111,13 @@ The Fade Finder Barbershop App is a social networking app designed for individua
     `GET`    | /swipes/:userId | Retrieve swipe history for a specific user by userId
     `POST`    | /swipes |Create a new swipe action (like or dislike)
     `GET`    | /matches/:userId |Retrieve matched barbers for a specific user by userId
+
+     HTTP Verb | Endpoint | Description
+   ----------|----------|------------
+    `GET`    |/appointments| Retrieve a list of all appointments
+    `GET`    | /appointments/:userId| Retrieve appointments for a specific user by userId
+    `POST`    | /appointments  | Create a new appointment
+    `PUT`    | /appointments/:appointmentId |Update appointment details by appointmentId
+    `DELETE`    | /appointments/:appointmentId |Cancel an appointment by appointmentId
    
 

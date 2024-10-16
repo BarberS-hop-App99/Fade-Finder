@@ -119,5 +119,11 @@ The Fade Finder Barbershop App is a social networking app designed for individua
     `POST`    | /appointments  | Create a new appointment
     `PUT`    | /appointments/:appointmentId |Update appointment details by appointmentId
     `DELETE`    | /appointments/:appointmentId |Cancel an appointment by appointmentId
+
+     HTTP Verb | Endpoint | Description
+   ----------|----------|------------
+    `GET`    |/barbers/nearby?lat=:lat&lng=:lng| Find barbers nearby based on latitude (lat) and longitude (lng)
+    `GET`    | /barbers/:id/location| Get location information for a specific barber by :id
+    
    
 

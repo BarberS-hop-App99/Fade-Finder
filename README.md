@@ -98,6 +98,7 @@ The Fade Finder Barbershop App is a social networking app designed for individua
     `DELETE`    | /barbers/:id |Update barber profile information by :id
 
 
+
    HTTP Verb | Endpoint | Description
    ----------|----------|------------
     `GET`    | /users | Retrieve a list of all users on the platform
@@ -124,6 +125,12 @@ The Fade Finder Barbershop App is a social networking app designed for individua
    ----------|----------|------------
     `GET`    |/barbers/nearby?lat=:lat&lng=:lng| Find barbers nearby based on latitude (lat) and longitude (lng)
     `GET`    | /barbers/:id/location| Get location information for a specific barber by :id
+
+     HTTP Verb | Endpoint | Description
+   ----------|----------|------------
+    `GET`    | /barbers/:id/instagram | Retrieve Instagram profile link for a barber by :id
+    `POST`    | /barbers/:id/instagram/connect	|Connect a barber’s Instagram account
+    `DELETE`    | /barbers/:id/instagram/disconnect |Disconnect a barber’s Instagram account
     
    
 

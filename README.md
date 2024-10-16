@@ -84,13 +84,13 @@ The Fade Finder Barbershop App is a social networking app designed for individua
 
 
 #### [IF EXISTS:] Existing API Endpoints
-##### An API Of Ice And Fire
+##### Barber API 
 - Base URL - [http://www.anapioficeandfire.com/api](http://www.anapioficeandfire.com/api)
 
    HTTP Verb | Endpoint | Description
    ----------|----------|------------
-    `GET`    | /characters | get all characters
-    `GET`    | /characters/?name=name | return specific character by name
+    `GET`    | /barbers | Retrieve a list of all barbers on the platform
+    `GET`    | /barbers/:id | return specific character by name
     `GET`    | /houses   | get all houses
     `GET`    | /houses/?name=name | return specific house by name
 

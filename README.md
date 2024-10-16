@@ -98,7 +98,6 @@ The Fade Finder Barbershop App is a social networking app designed for individua
     `DELETE`    | /barbers/:id |Update barber profile information by :id
 
 
-##### User API
    HTTP Verb | Endpoint | Description
    ----------|----------|------------
     `GET`    | /barbers | Retrieve a list of all barbers on the platform

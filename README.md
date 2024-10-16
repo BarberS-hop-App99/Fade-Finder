@@ -85,7 +85,8 @@ The Fade Finder Barbershop App is a social networking app designed for individua
 
 
 ##### Barber API 
-Base URL  [http://www.anapioficeandfire.com/api](http://www.anapioficeandfire.com/api](https://api.fadefinder.com/v1)
+##### Game of Thrones API
+- Base URL - [https://api.got.show/api](https://api.got.show/api)
 
    HTTP Verb | Endpoint | Description
    ----------|----------|------------

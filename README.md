@@ -132,5 +132,6 @@ The Fade Finder Barbershop App is a social networking app designed for individua
     `POST`    | /barbers/:id/instagram/connect	|Connect a barber’s Instagram account
     `DELETE`    | /barbers/:id/instagram/disconnect |Disconnect a barber’s Instagram account
     
-   
+   ## Build Progress
+  As it comes to building out Fade Finder we are continuing to plan and execute all the details and steps within Fade Finder to make it a total and complete application, understanding this is essential. While working on the database schema for Fade Finders, the focus is on creating a well-structured and scalable foundation that efficiently stores and manages the app’s core data. Using Firebase as the backend, the database models are defined for key entities like Users, Appointments, Services, and Reviews. The Users collection includes both barbers and customers, with role-specific fields such as availability for barbers and booking history for customers. The Services collection lists the types of haircuts or grooming options offered, ensuring barbers can define their offerings and customers can make informed selections
 

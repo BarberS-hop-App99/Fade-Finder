@@ -46,8 +46,6 @@ The Fade Finder Barbershop App is a social networking app designed for individua
   - Clients view hairstyle options posted by barbers and swipe left (dislike) or right (like) on each style.
   - If there’s a match, a chat window opens.
   
-- **Chat Screen**:
-  - Clients can chat directly with matched barbers to discuss styles, pricing, and availability.
   
 - **Profile Screen (Barber)**:
   - Barbers can upload photos of their work, set their availability, and list their specialties.
@@ -107,25 +105,7 @@ The Fade Finder Barbershop App is a social networking app designed for individua
     `PUT`    | /users/:id |Update user profile information by :id
     `DELETE`    | /users/:id |Delete a user profile by :id
 
-     HTTP Verb | Endpoint | Description
-   ----------|----------|------------
-    `GET`    | /swipes/:userId | Retrieve swipe history for a specific user by userId
-    `POST`    | /swipes |Create a new swipe action (like or dislike)
-    `GET`    | /matches/:userId |Retrieve matched barbers for a specific user by userId
-
-     HTTP Verb | Endpoint | Description
-   ----------|----------|------------
-    `GET`    |/appointments| Retrieve a list of all appointments
-    `GET`    | /appointments/:userId| Retrieve appointments for a specific user by userId
-    `POST`    | /appointments  | Create a new appointment
-    `PUT`    | /appointments/:appointmentId |Update appointment details by appointmentId
-    `DELETE`    | /appointments/:appointmentId |Cancel an appointment by appointmentId
-
-     HTTP Verb | Endpoint | Description
-   ----------|----------|------------
-    `GET`    |/barbers/nearby?lat=:lat&lng=:lng| Find barbers nearby based on latitude (lat) and longitude (lng)
-    `GET`    | /barbers/:id/location| Get location information for a specific barber by :id
-
+    
      HTTP Verb | Endpoint | Description
    ----------|----------|------------
     `GET`    | /barbers/:id/instagram | Retrieve Instagram profile link for a barber by :id

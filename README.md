@@ -136,6 +136,6 @@ The Fade Finder Barbershop App is a social networking app designed for individua
  In developing the Fade Finders app, a significant part of the project involves designing a robust database schema that efficiently handles the core collections: Barber, Customer, and Post. Utilizing Firebase as the backend, each of these collections must be carefully structured to ensure smooth interactions between barbers and customers. The Barber collection will store essential details like barber profiles, available services, schedules, and ratings, while the Customer collection will capture user profiles, preferences, and booking history. The Post collection could be used to handle content created by barbers, such as promotional posts or updates about new services. Ensuring that these collections are well-structured with appropriate fields and relationships between documents is crucial for allowing smooth data flow, secure booking processes, and real-time updates. By defining clear relationships between Barber, Customer, and Post, the system can efficiently manage interactions, such as customers booking appointments or viewing posts, while providing an excellent user experience.
 
  ## Fade Finder Poster
- ![Wire Frame](https://github.com/BarberS-hop-App99/Fade-Finder/blob/main/Untitled%20design%20(1).png?raw=true)
+ ![Wire Frame](https://github.com/BarberS-hop-App99/Fade-Finder/blob/main/Screenshot%202024-12-06%20194324.png?raw=true)
 
 

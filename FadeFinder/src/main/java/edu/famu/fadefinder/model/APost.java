@@ -17,9 +17,8 @@ public class APost {
     @DocumentId
     private String postId;
     private String imageUrl;
-    private Timestamp createdAt;
+    private boolean likedPosts;
+    private String description;
 
-    public void setCreatedAt(String createdAt) throws ParseException {
-        this.createdAt = Timestamp.fromProto(Timestamps.parse(createdAt));
-    }
+
 }

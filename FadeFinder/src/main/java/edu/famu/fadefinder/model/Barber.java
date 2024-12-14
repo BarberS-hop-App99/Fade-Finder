@@ -12,11 +12,10 @@ import java.util.ArrayList;
 @Data
 @NoArgsConstructor
 public class Barber extends ABarber {
-    private ArrayList<Post> posts;  // ArrayList of full Post objects instead of document references
+    private ArrayList<Post> description;  // ArrayList of full Post objects instead of document references
 
-    // Constructor for extending ABarbers and adding full Post objects
-    public Barber(String barberId, String imageUrl, String instagramUrl, String password, String username, ArrayList<Post> posts) {
-        super(barberId, imageUrl, instagramUrl, password, username);  // Call to the ABarbers constructor
-        this.posts = posts;  // Set posts as full Post objects
+    public Barber(String barberId, String instagramUrl, String password, String username, String BarberPostalCode, ArrayList<String> posts, ArrayList<Post> postDetails) {
+        super(barberId, instagramUrl, password, username, BarberPostalCode, posts);
+        this.description = postDetails;
     }
 }

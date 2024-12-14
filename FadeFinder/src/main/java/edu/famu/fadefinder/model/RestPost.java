@@ -12,8 +12,8 @@ import lombok.NoArgsConstructor;
 public class RestPost extends APost {
     private DocumentReference barberId;
 
-    public RestPost(String postId, String imageUrl, Timestamp createdAt, DocumentReference barberId) {
-        super(postId, imageUrl, createdAt);
+    public RestPost(String postId, String imageUrl, boolean likedPosts, String description, DocumentReference barberId) {
+        super(postId, imageUrl, likedPosts, description);
         this.barberId = barberId;
     }
 }

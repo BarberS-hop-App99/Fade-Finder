@@ -3,8 +3,8 @@ package edu.famu.fadefinder.service;
 import com.google.api.core.ApiFuture;
 import com.google.cloud.firestore.*;
 import com.google.firebase.cloud.FirestoreClient;
+import edu.famu.fadefinder.model.ACustomer;
 import edu.famu.fadefinder.model.Barber;
-import edu.famu.fadefinder.model.Customer;
 import edu.famu.fadefinder.model.Post;
 import org.springframework.stereotype.Service;
 
@@ -34,14 +34,14 @@ public class AdminService {
     }
 
     // Get All Customers
-    public List<Customer> getAllCustomers() throws ExecutionException, InterruptedException {
+    public List<ACustomer> getAllCustomers() throws ExecutionException, InterruptedException {
         Firestore dbFirestore = FirestoreClient.getFirestore();
         ApiFuture<QuerySnapshot> future = dbFirestore.collection(CUSTOMERS_COLLECTION).get();
         List<QueryDocumentSnapshot> documents = future.get().getDocuments();
 
-        List<Customer> customersList = new ArrayList<>();
+        List<ACustomer> customersList = new ArrayList<>();
         for (DocumentSnapshot document : documents) {
-            Customer customer = document.toObject(Customer.class);
+            ACustomer customer = document.toObject(ACustomer.class);
             customersList.add(customer);
         }
         return customersList;

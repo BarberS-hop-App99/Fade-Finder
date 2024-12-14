@@ -8,6 +8,7 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 
 import java.text.ParseException;
+import java.util.ArrayList;
 
 @Data
 @NoArgsConstructor
@@ -19,5 +20,6 @@ public abstract class ABarber {
     private String password;              // Password for the barber's account
     private String username;              // Username for the barber
     private String BarberPostalCode;
+    private ArrayList<String> posts;
 
 }

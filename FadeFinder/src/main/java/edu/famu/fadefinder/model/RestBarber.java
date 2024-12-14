@@ -15,11 +15,10 @@ import java.util.ArrayList;
 @Data
 @NoArgsConstructor
 public class RestBarber extends ABarber {
-    private ArrayList<DocumentReference> posts;  // Document references to posts made by the barber
+    private ArrayList<DocumentReference> description;  // Document references to posts made by the barber
 
-
-    public RestBarber(String barberId, String instagramUrl, String password, String username, String BarberPostalCode, ArrayList<DocumentReference> posts) {
-        super(barberId, instagramUrl, password, username, BarberPostalCode);
-        this.posts = posts;
+    public RestBarber(String barberId, String instagramUrl, String password, String username, String BarberPostalCode, ArrayList<String> posts, ArrayList<DocumentReference> description) {
+        super(barberId, instagramUrl, password, username, BarberPostalCode, posts);
+        this.description = description;
     }
 }

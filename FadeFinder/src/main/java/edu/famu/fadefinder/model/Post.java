@@ -1,24 +1,17 @@
 package edu.famu.fadefinder.model;
 
-public class Post {
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
 
-    private String postId;
-    private String content;  // Example field
+@Data
+@NoArgsConstructor
+@AllArgsConstructor
+public class Post extends APost{
+    Barber barberId;
 
-    // Constructor accepting a String (post ID)
-    public Post(String postId) {
-        this.postId = postId;
+    public Post(String postId, String imageUrl, boolean likedPosts, String description, Barber barberId) {
+        super(postId, imageUrl, likedPosts, description);
+        this.barberId = barberId;
     }
-
-    // Getters and setters
-
-    public String getPostId() {
-        return postId;
-    }
-
-    public void setPostId(String postId) {
-        this.postId = postId;
-    }
-
-    // Add other fields and methods here as needed
 }

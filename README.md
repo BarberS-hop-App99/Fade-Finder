@@ -122,12 +122,9 @@ The Fade Finder Barbershop App is a social networking app designed for individua
 ![FadeFinderVideo](https://github.com/user-attachments/assets/361fdae4-0c8a-47fa-a271-3068318a431a)
 
 ## Overview Video
-For a quick walkthrough of the Fade Finder App, watch the video below:
 
-[![Fade Finder Overview](https://img.youtube.com/vi/VIDEO_ID/0.jpg)](https://www.youtube.com/watch?v=VIDEO_ID)
-
-If viewing locally, download and watch the video:
-[Fade Finder Overview Video](Fade%20Finder.mp4)
-
-
+<video controls width="800">
+  <source src="Fade Finder.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
 
